@@ -1,0 +1,44 @@
+.home__header{
+    background-color: var(--ColorAmarillo);
+    background-size: cover;
+    font-size: var(--TamañoCuerposTexto);
+}
+
+/* .home__header--BarraBusqueda{
+    background-color: var(--ColorGrisClaro);
+    color: var(--ColorGrisOscuro);
+    display: inline;
+
+    
+} */
+
+
+/* .home__header__nav1{
+
+} */
+
+/* .home__header__nav2{
+
+}
+ */
+.home__header--burger{
+    background-color: var(--ColorCeleste);
+    justify-content: center;
+    display: inline;
+}
+
+/* .home__main{
+
+} */
+
+/* .home__main__UltimaVisita{
+
+} */
+
+/* .home__main__Ofertas{
+
+} */
+
+/* .home__footer{
+
+} */

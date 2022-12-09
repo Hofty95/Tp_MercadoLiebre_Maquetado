@@ -2,6 +2,27 @@ body{
     font-family: var(--TipografiaGeneral);
 }
 
-.precio{
+a{
+    text-decoration: none;
+}
 
+li{
+    list-style: none;
+}
+
+.Titular{
+    font-size: var(--TamañoTitulares);
+}
+
+.precio{
+font-size: var(--TamañoPrecios);
+}
+
+.descuesto{
+
+    font-size: var(--TamañoDescuentos);
+}
+
+.descripcion{
+    font-size: var(--TamañoDescripciones);
 }
