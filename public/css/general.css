@@ -1,5 +1,6 @@
 body{
     font-family: var(--TipografiaGeneral);
+    margin: 0;
 }
 
 a{

@@ -2,6 +2,7 @@
     background-color: var(--ColorAmarillo);
     background-size: cover;
     font-size: var(--TamañoCuerposTexto);
+    padding: 10px;
 }
 
 /* .home__header__nav1{
@@ -25,9 +26,9 @@
     max-width: 34px;
 }
 
-/* .home__main{
-
-} */
+.home__main{
+    padding: 10px;
+}
 
 /* .home__main__UltimaVisita{
 
@@ -39,6 +40,7 @@
 
 .home__footer{
     text-align: center;
+    padding: 10px;
 }
 
 .home__footer h4{
