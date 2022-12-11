@@ -4,27 +4,25 @@
     font-size: var(--TamañoCuerposTexto);
 }
 
-/* .home__header--BarraBusqueda{
-    background-color: var(--ColorGrisClaro);
-    color: var(--ColorGrisOscuro);
-    display: inline;
-
-    
-} */
-
-
 /* .home__header__nav1{
 
 } */
 
 /* .home__header__nav2{
 
-}
- */
+} */
+
 .home__header--burger{
     background-color: var(--ColorCeleste);
-    justify-content: center;
-    display: inline;
+    color: var(--ColorGrisClaro);
+    font-size: var(--TamañoTitulares);
+    display: block;
+    text-align: center;
+    margin: auto auto;
+    padding: 10px;
+    border: 1px solid var(--ColorAzul);
+    border-radius: 6px;
+    max-width: 34px;
 }
 
 /* .home__main{
@@ -39,6 +37,28 @@
 
 } */
 
-/* .home__footer{
+.home__footer{
+    text-align: center;
+}
 
-} */
+.home__footer h4{
+    margin-top: 0;
+}
+
+.fa-credit-card{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}
+
+.fa-gift{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}
+
+.fa-user-shield{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}
