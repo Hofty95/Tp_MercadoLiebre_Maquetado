@@ -1,6 +1,7 @@
 body{
     font-family: var(--TipografiaGeneral);
     margin: 0;
+    background-color: var(--ColorGrisClaro);
 }
 
 a{
@@ -17,11 +18,13 @@ li{
 
 .precio{
 font-size: var(--TamañoPrecios);
+margin: 0;
 }
 
 .descuesto{
-
     font-size: var(--TamañoDescuentos);
+    margin: 0;
+    color: var(--ColorVerde);
 }
 
 .descripcion{

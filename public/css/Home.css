@@ -27,7 +27,14 @@
 }
 
 .home__main{
-    padding: 10px;
+/*     padding: 10px; */
+    width: 90%;
+/*     background-color: var(--ColorGrisClaro); */
+    margin: 0 auto;
+}
+
+.home__main--banner{
+    width: 100%;
 }
 
 /* .home__main__UltimaVisita{
@@ -37,6 +44,28 @@
 /* .home__main__Ofertas{
 
 } */
+
+.home__main__article{
+    margin-bottom: 10px;
+}
+
+.home__main__article img{
+width: 100%;
+}
+
+.home__main__article div{
+    background-color: white;
+    border-top: 1px solid var(--ColorGrisClaro);
+    padding: 0 15px;
+    margin: 0;
+}
+
+.home__main__article div i{
+    color: var( --ColorVerde);
+    border: 1px solid var(--ColorVerde);
+    border-radius: 50%;
+    padding: 8px;
+}
 
 .home__footer{
     text-align: center;
