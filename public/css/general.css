@@ -1,7 +1,13 @@
+/* Mobile first */
+
 body{
     font-family: var(--TipografiaGeneral);
     margin: 0;
     background-color: var(--ColorGrisClaro);
+}
+
+ul{
+    padding: 0;
 }
 
 a{
@@ -29,4 +35,16 @@ margin: 0;
 
 .descripcion{
     font-size: var(--TamañoDescripciones);
+    color: var(--ColorGrisOscuro);
+    display: none;
 }
+
+/* Tablet min width 361px */
+
+@media (min-width:361px) {
+    .descripcion{
+        display: block;
+    }
+}
+
+/* Desktop min width 769px*/

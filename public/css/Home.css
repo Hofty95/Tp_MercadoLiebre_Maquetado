@@ -1,3 +1,5 @@
+/* Mobile First */
+
 .home__header{
     background-color: var(--ColorAmarillo);
     background-size: cover;
@@ -5,13 +7,13 @@
     padding: 10px;
 }
 
-/* .home__header__nav1{
+.home__header__nav1{
+    display: none;
+}
 
-} */
-
-/* .home__header__nav2{
-
-} */
+.home__header__nav2{
+    display: none;
+}
 
 .home__header--burger{
     background-color: var(--ColorCeleste);
@@ -93,3 +95,25 @@ width: 100%;
     color: var(--ColorCeleste);
     margin-bottom: var(--margenicono);
 }
+
+/* Tablet  min width 361px*/
+
+@media (min-width:361px) {
+    .home__main__article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home__header__nav1{
+        display: block;
+    }
+    
+    .home__header__nav2{
+        display: block;
+    }
+
+    .home__header--burger{
+        display: none;
+    }
+}
+
+/* Desktop min width 769px*/
