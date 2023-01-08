@@ -1,0 +1,107 @@
+.main__register{
+    margin: 0 20px;
+/*     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.main__register__content{
+/*     padding: 20px 0; */
+    margin: 30px auto ;
+    max-width: 768px;
+}
+
+.main__register h1{
+    max-width: 768px;
+    margin-top: 10px;
+}
+
+.register__form__section{
+    background-color: var(--ColorGrisClaro);
+    padding: 5px;
+    border: 3px solid var(--ColorAmarillo);
+    border-radius: 5px;
+    max-width: 768px;
+/*     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.register__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.register__form__box{
+    padding: 5px;
+    width: 100%;
+}
+
+.register__form__box label{
+    width: 100%;
+    font-weight: bold;
+}
+
+.register__form__box input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register__form__box--date{
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.register__form__box--date input{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: silver;
+}
+
+.register__form__box--radio{
+    padding: 5px;
+    width: 100%;
+}
+
+.register__form__box--radio .usertype{
+    font-weight: bold;
+}
+
+
+.register__form__box--checkbox{
+    padding: 5px;
+    width: 100%;
+}
+
+.register__form__box--checkbox .category{
+    font-weight: bold;
+}
+
+.register__form__box--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.register__form__box--buttons button{
+    background-color: var(--ColorCeleste);
+    color: var(--ColorGrisClaro);
+    font-size: var(--TamañoCuerposTexto);
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid var(--ColorAzul);
+    border-radius: 6px;
+}

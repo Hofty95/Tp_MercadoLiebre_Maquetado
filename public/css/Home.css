@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.home__header img{
+.home__header__logo{
     width: 50%;
     padding: 5px;
 }
@@ -155,7 +155,7 @@ width: 100%;
         justify-content: space-between;
     }
 
-    .home__header img{
+    .home__header__logo{
         width: 30%;
     }
     
