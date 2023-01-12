@@ -100,8 +100,15 @@
     font-size: var(--TamañoCuerposTexto);
     display: block;
     text-align: center;
-    margin: auto;
     padding: 10px;
     border: 1px solid var(--ColorAzul);
     border-radius: 6px;
+}
+
+.register__form__box--buttons button:hover{
+    background-color: var(--ColorBoton);
+}
+
+.register__form__box--buttons button:last-child:hover{
+    background-color: rgb(194, 50, 50);
 }

@@ -50,14 +50,16 @@ padding: auto;
 .descripcion{
     font-size: var(--TamañoDescripciones);
     color: var(--ColorGrisOscuro);
-    display: none;
+    height: 0px;
+    transition: all 1s;
+    overflow: hidden;
 }
 
 /* Tablet min width 361px */
 
 @media (min-width:361px) {
     .descripcion{
-        display: block;
+       /*  display: block; */
         width: 100%;
         margin-top: 20px;
     }

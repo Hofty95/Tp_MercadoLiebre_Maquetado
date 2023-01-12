@@ -61,3 +61,7 @@
     border: 1px solid var(--ColorAzul);
     border-radius: 6px;
 }
+
+.login__form__button button:hover{
+    background-color: var(--ColorBoton);
+}
